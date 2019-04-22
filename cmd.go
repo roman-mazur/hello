@@ -1,3 +1,15 @@
+// The command prints "Hello!" in multiple languages.
+//
+// Usage:
+//       hello [lang]
+// Currently supported languages: en, ua, fr, jp.
+// When language is not set, it's chosen randomly.
+//
+// Example:
+//       $ hello
+//       こんにちは
+//       $ hello fr
+//       Salut!
 package main // import "rmazur.io/hello"
 
 import (
